@@ -1,0 +1,35 @@
+[
+  {
+    "firstName": "Cathy",
+    "location": "Kabalagala",
+    "age": "21",
+    "gender": "female",
+    "nextOfKin": "John",
+    "nin": "CF3737889",
+    "recommender": "Mary",
+    "sitterNo": "DSS12",
+    "contact": "0777777"
+  },
+  {
+    "firstName": "James",
+    "location": "Makindye",
+    "age": "20",
+    "gender": "Christine",
+    "nextOfKin": "John",
+    "nin": "CM3005589",
+    "recommender": "Mary",
+    "sitterNo": "DSS15",
+    "contact": "0777777"
+  },
+  {
+    "firstName": "Cynthia",
+    "location": "Kabalagala",
+    "age": "18",
+    "gender": "female",
+    "nextOfKin": "Mark",
+    "nin": "CF3737799",
+    "recommender": "Mohammed",
+    "sitterNo": "DSS19",
+    "contact": "0777777"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Brown teddy beer",
+    "price": 30000,
+    "image": "https://th.bing.com/th/id/OIP.5uQBF7COXT7S0WD9I9384gHaG8?rs=1&pid=ImgDetMain"
+  },
+  {
+    "id": 2,
+    "name": "sponge bob doll",
+    "price": 20000,
+    "image": "https://th.bing.com/th/id/OIP.c46sevKGao7W_2HVDGze3gHaG1?rs=1&pid=ImgDetMain"
+  },
+  {
+    "id": 3,
+    "name": "hand-made doll",
+    "price": 10000,
+    "image": "https://th.bing.com/th/id/OIP.mKFOy7_m5waUKPpqQ1mJ2gHaHa?rs=1&pid=ImgDetMain"
+  },
+  {
+    "id": 4,
+    "name": "football",
+    "price": 23000,
+    "image": "https://th.bing.com/th/id/R.444a034d454b9f539c5a43446a11c2f0?rik=RaUBNiOnlF6E8g&riu=http%3a%2f%2fcdn.brooklynheightsblog.com%2fwp-content%2fuploads%2fsoccer-ball-2-1.jpg&ehk=ethkcARHMoeJkQeUEegrX7BuJ0aceEFFA%2bAmp4LESdo%3d&risl=&pid=ImgRaw&r=0"
+  },
+  {
+    "id": 5,
+    "name": "green rubber doll",
+    "price": 15000,
+    "image": "https://chairish-prod.global.ssl.fastly.net/image/product/sized/68d38ee9-a08b-454e-9bb8-377d8bc80ddc?aspect=fit&width=320&height=320"
+  },
+  {
+    "id": 6,
+    "name": "spider-man doll",
+    "price": 40000,
+    "image": "https://th.bing.com/th/id/OIP.PGBvq6dkAwKt0xPwo4k2EAHaHa?rs=1&pid=ImgDetMain"
+  },
+  {
+    "id": 7,
+    "name": "Purple teddy-bear",
+    "price": 50000,
+    "image": "https://cdn8.bigcommerce.com/s-dee9d/images/stencil/1280x1280/products/378/4185/Big_Teddy_Bear_Violet_Woolly_Tubs_Purple_42_inch_2__69552.1355185001.jpg?c=2"
+  },
+  {
+    "id": 8,
+    "name": "Rubber duck",
+    "price": 15000,
+    "image": "https://th.bing.com/th/id/OIP.n7fwIzyAklTJ74MK35mTNwHaHa?rs=1&pid=ImgDetMain"
+  },
+  {
+    "id": 9,
+    "name": "Pooh bear",
+    "price": 20000,
+    "image": "https://th.bing.com/th/id/R.b8defc4cfa56f6f1470d4b9f6c870ae1?rik=zoQr4VgiwzYPDg&pid=ImgRaw&r=0"
+  },
+  {
+    "id": 10,
+    "name": "Black teddy bear",
+    "price": 45000,
+    "image": "https://th.bing.com/th/id/OIP.97Ft6onk5XnnIIjDC-mdjQHaHJ?rs=1&pid=ImgDetMain"
+  }
+]

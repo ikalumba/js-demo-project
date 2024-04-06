@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/bootstrap-5.3.3-dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="/adminDash/admindash.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="main-nav-list">
+        <a><span class="logo" href="#">Daystar daycare</span></a>
+        <a class="main-nav-link" href="/dollStall/dollStall.html">Doll stall</a>
+        <a class="main-nav-link" href="slideLibrary.html">Sitter dashboard</a>
+        <a class="main-nav-link" href="#">Security dashboard</a>
+      </nav>
+      <nav class="account-nav">
+        <ul class="account-nav-list">
+          <li class="account-nav-name"><a>admin@daystardaycare.org</a></li>
+          <li><a>🔔</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="main-container">
+      <div class="side-bar-container">
+        <div class="side-bar">
+          <img class="admin-dash-logo" src="/images-1/my-logo.jpg" />
+          <p class="acc-sidebar-name">ADMIN</p>
+          <a href="/login/login.html" class="logout-btn"><p>Log out</p></a>
+        </div>
+      </div>
+      <div class="work-section">
+        <ul class="progress-left-list">
+          <li class="baby-attend">
+            <p class="attend-title">Babies'attendance:</p>
+            <p class="num-attend babies-present">0</p>
+          </li>
+          <li class="sitter-attend">
+            <p class="attend-title">Sitters'attendance:</p>
+            <p class="num-attend sitters-present">0</p>
+          </li>
+          <li class="time">
+            <p class="attend-title date">Date & Time:</p>
+
+            <p class="num-attend clock">0:00</p>
+          </li>
+        </ul>
+        <div class="reg-form reg-action-container">
+          <button class="reg-action-btn baby-reg-action-btn">
+            Register baby
+          </button>
+          <button class="reg-action-btn">Register sitter</button>
+        </div>
+        <div class="display-container">
+          <div class="reg-form baby-reg-form-container hidden">
+            <p class="form-title">Baby Registration form</p>
+            <form class="baby-reg-form">
+              <div class="form-item">
+                <label class="form-item-name">Baby's name:</label
+                ><input type="text" required class="baby-name inp" />
+              </div>
+              <div class="form-item">
+                <label class="form-item-name">Age:</label
+                ><input type="text" required class="baby-age inp" />
+              </div>
+              <div class="form-item">
+                <label class="form-item-name">Gender:</label
+                ><input type="text" required class="baby-gender inp" />
+              </div>
+              <div class="form-item">
+                <label class="form-item-name">Location:</label
+                ><input type="text" required class="baby-location inp" />
+              </div>
+              <div class="form-item">
+                <label class="form-item-name">Parent's name:</label
+                ><input type="text" required class="parent-name inp" />
+              </div>
+              <div class="form-item">
+                <label class="form-item-name">Baby's ID:</label
+                ><input type="text" required class="baby-id inp" />
+              </div>
+              <div class="form-btn-container">
+                <button class="reg-form-btn clear-btn baby-clear-btn">
+                  Clear form
+                </button>
+                <button type="submit" class="reg-form-btn reg-btn baby-reg-btn">
+                  Register
+                </button>
+                <button class="reg-form-btn close-btn baby-close-btn">
+                  Close
+                </button>
+              </div>
+            </form>
+          </div>
+
+          <div class="baby-list-container"></div>
+        </div>
+      </div>
+    </div>
+    <!-- <h2>Welcome Admin!</h2>
+     Registration form -->
+    <!-- A button to open the popup form -->
+    <!--
+    <button class="open-button" onclick="openForm()">Register sitter</button>
+    <button>Logout</button>
+     The form -->
+    <!--
+    <div class="form-popup" id="myForm">
+      <form action="/action_page.php" class="form-container">
+        <h1>Sitter Registration</h1>
+        <label for="fullname"><b>Full Name</b></label>
+        <input
+          type="text"
+          placeholder="Enter Full Name"
+          name="fullname"
+          required
+        />
+
+        <label><b>Location</b></label>
+        <input type="text" placeholder="Enter area of residence" required />
+
+        <label type="text"><b>Next of kin</b></label>
+        <input placeholder="Enter your next of kin" required />
+
+        <button type="submit" class="btn">Register</button>
+        <button type="button" class="btn cancel" onclick="closeForm()">
+          Close
+        </button>
+      </form>
+    </div> -->
+
+    <script src="/css/bootstrap-5.3.3-dist/js/bootstrap.bundle.js"></script>
+    <script src="/adminDash/admindash.js"></script>
+  </body>
+</html>

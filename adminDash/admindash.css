@@ -1,0 +1,218 @@
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.hidden {
+  display: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #b5b6f3;
+  width: 100%;
+  top: 0;
+  padding: 0rem;
+  position: fixed;
+  height: 3rem;
+
+  /* Because we want it to be sticky later */
+}
+/* NAV BAR */
+.logo {
+  font-weight: bold;
+  color: #0303a7;
+  padding-left: 1rem;
+  font-size: 1.2rem;
+}
+/*-----main nav---- */
+.main-nav-list {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.account-nav-list {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+}
+.account-nav-name {
+  font-size: 0.8rem;
+  text-align: center;
+}
+/* MAIN SECTION */
+.main-container {
+  display: flex;
+  width: 100%;
+  height: 100%vh;
+  margin: 0 auto;
+  padding-top: 3rem;
+}
+
+.side-bar-container {
+  background-color: #6e9db0;
+
+  flex: 1;
+}
+.sidebar {
+  background-color: #6e9db0;
+  height: 48rem;
+}
+.work-section {
+  flex: 3;
+}
+.progress-left-list {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  padding-right: 3rem;
+  background-color: #ffffff;
+  height: 8rem;
+  margin: 2rem;
+
+  text-align: center;
+  box-shadow: 0.25rem 0.5rem 1rem rgba(64, 66, 66, 0.2);
+  border-radius: 0.8rem;
+}
+
+.attend-title {
+  padding-top: 1.5rem;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.num-attend {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.baby-attend {
+  flex: 1;
+  justify-items: center;
+}
+.sitter-attend {
+  flex: 1;
+  justify-items: center;
+}
+.time {
+  flex: 1;
+  justify-items: center;
+}
+
+/* Form styling */
+
+.reg-form {
+  list-style: none;
+  /* padding-right: 3rem; */
+  background-color: #ffffff;
+  margin: 2rem;
+  box-shadow: 0.25rem 0.5rem 1rem rgba(64, 66, 66, 0.2);
+  padding-bottom: 2rem;
+  border-radius: 0.8rem;
+}
+.form-title {
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: bold;
+  background-color: #6e9db0;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  border-top-left-radius: 0.8rem;
+  border-top-right-radius: 0.8rem;
+  color: #fff;
+}
+.form-item {
+  margin-top: 1rem;
+  display: flex;
+  padding-left: 1rem;
+}
+
+.form-item-name {
+  flex: 1;
+}
+.inp {
+  flex: 8;
+  margin-right: 3rem;
+}
+.form-btn-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  gap: 3rem;
+}
+.reg-form-btn {
+  height: 2rem;
+  border-radius: 0.3rem;
+}
+.reg-btn {
+  width: 12rem;
+  background-color: #4aa582;
+}
+.clear-btn {
+  width: 7rem;
+  border: #4aa582 solid;
+  background-color: #fff;
+}
+.close-btn {
+  width: 7rem;
+  border: #4aa582 solid;
+  background-color: #fff;
+}
+.reg-form-btn:hover {
+  border: #514fb4 solid;
+}
+
+.baby-list-container {
+  background-color: #ffffff;
+  margin: 2rem;
+  box-shadow: 0.25rem 0.5rem 1rem rgba(64, 66, 66, 0.2);
+  padding-bottom: 2rem;
+  border-radius: 0.8rem;
+  height: 25rem;
+}
+
+.reg-action-container {
+  padding-top: 1.5rem;
+  justify-content: center;
+}
+
+.reg-action-btn {
+  display: block;
+  width: 90%;
+  background-color: #6e9db0;
+  border-radius: 0.3rem;
+  margin-top: 0.6rem;
+  margin-right: auto;
+  margin-left: auto;
+  height: 1.8rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.admin-dash-logo {
+  border-radius: 50%;
+  display: block;
+  margin: 2rem auto;
+  width: 13rem;
+  height: 13rem;
+}
+.acc-sidebar-name {
+  margin-top: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  font-size: 1.3rem;
+}
+.logout-btn {
+  font-weight: bold;
+  display: block;
+  margin: 2rem auto;
+  text-align: center;
+  color: #fff;
+}
+.logout-btn:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "firstName": "Jerome",
+    "gender": "male",
+    "age": "2",
+    "location": "Makindye"
+  },
+  {
+    "firstName": "Linda",
+    "gender": "female",
+    "age": "3",
+    "location": "Kabalagala"
+  },
+  {
+    "firstName": "Cynthia",
+    "gender": "female",
+    "age": "4",
+    "location": "Makindye"
+  },
+  {
+    "firstName": "Calton",
+    "gender": "male",
+    "age": "2",
+    "location": "Munyonyo"
+  },
+  {
+    "firstName": "Angel",
+    "gender": "female",
+    "age": "1",
+    "location": "Bugolobi"
+  },
+  {
+    "firstName": "Nathan",
+    "gender": "male",
+    "age": "3",
+    "location": "Mulago"
+  }
+]

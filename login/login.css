@@ -1,0 +1,51 @@
+body {
+  background-color: rgb(109, 156, 175);
+  box-sizing: border-box;
+}
+label {
+  display: block;
+  margin: 0 auto;
+}
+.login-container {
+  align-items: center;
+  width: 30rem;
+  height: 35rem;
+  background-color: #fff;
+  margin: 5rem auto;
+  border-radius: 1rem;
+}
+.login-input {
+  display: block;
+  width: 90%;
+  height: 2.5rem;
+  border: solid rgb(109, 156, 175);
+  border-radius: 0.5rem;
+  margin: auto;
+}
+.login-title {
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  color: rgb(109, 156, 175);
+}
+
+.login-btn {
+  display: block;
+  margin: auto;
+  width: 8rem;
+  height: 3rem;
+  border-radius: 0.5rem;
+  background-color: rgb(109, 156, 175);
+  color: #fff;
+}
+.login-btn:hover {
+  background-color: rgb(77, 192, 238);
+}
+
+.admin-dash-logo {
+  border-radius: 50%;
+  display: block;
+  margin: 2rem auto;
+  width: 13rem;
+  height: 13rem;
+}

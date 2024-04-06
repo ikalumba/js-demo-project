@@ -1,0 +1,336 @@
+* {
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #f9f6fd;
+}
+
+a:link {
+  text-decoration: none;
+}
+a:hover {
+  cursor: pointer;
+}
+
+main {
+  margin-top: 4rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #b5b6f3;
+  width: 100%;
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+
+  /* Because we want it to be sticky later */
+
+  padding: 0rem;
+}
+
+.logo {
+  font-weight: bold;
+  color: #0303a7;
+  padding-left: 1rem;
+  font-size: 1.2rem;
+}
+/*-----main nav---- */
+.main-nav-list {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.account-nav-list {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+}
+.account-nav-name {
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.main-section {
+  /* display: flex; */
+  background-color: #f9f6fd;
+  width: 75rem;
+  margin: 4rem auto;
+}
+
+.btn-small {
+  border: 0.2rem solid #c5c2c0;
+  border-radius: 0.5rem;
+  width: 4rem;
+  color: #777675;
+}
+
+.progress-left {
+  flex: 3;
+}
+
+.progress-left-list {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  padding-right: 3rem;
+  background-color: #ffffff;
+  height: 8rem;
+  margin: 2rem;
+
+  text-align: center;
+  box-shadow: 0.25rem 0.5rem 1rem rgba(64, 66, 66, 0.2);
+}
+.exercises-clr {
+  flex: 1;
+  justify-items: center;
+}
+.lessons {
+  flex: 1;
+  justify-items: center;
+}
+.level {
+  flex: 1;
+  justify-items: center;
+}
+
+.ctn .ctn-image {
+  flex: 1.5;
+}
+.ctn-next-study {
+  flex: 4;
+}
+.ctn-resume {
+  flex: 1.5;
+}
+
+.btn-resume {
+  width: 6rem;
+  height: 2.5rem;
+  background-color: aquamarine;
+  border: none;
+}
+.btn-resume:hover {
+  background-color: rgb(106, 214, 178);
+}
+.progress-right {
+  flex: 1;
+}
+.tick-boxes {
+  display: grid;
+  grid-template-columns: repeat(7, 2rem);
+  grid-template-rows: repeat(5, 2rem);
+  grid-gap: 0.2rem;
+}
+
+.tb {
+  background-color: #e7eeeee1;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 0.2rem;
+}
+
+.intensity {
+  display: flex;
+}
+
+.intensity-boxes {
+  display: flex;
+  list-style: none;
+  gap: 0.3rem;
+}
+.int-box {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 0.15rem;
+}
+
+.int-1 {
+  background-color: #dedef1;
+}
+.int-2 {
+  background-color: #a8e9f5;
+}
+.int-3 {
+  background-color: #74f7e5;
+}
+.int-4 {
+  background-color: #4ff5f5;
+}
+.int-5 {
+  background-color: #0cebf3c0;
+}
+
+.course-icons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 3rem;
+  gap: 1rem;
+  justify-items: center;
+}
+
+.course-icon {
+  height: 3rem;
+  width: 3rem;
+}
+
+footer {
+  background-color: #ffffff;
+}
+.about {
+  width: 75rem;
+  margin: 0 auto;
+  display: flex;
+}
+
+.footer-list {
+  list-style: none;
+}
+
+.continue {
+  display: flex;
+  gap: 2rem;
+  background-color: #ffffff;
+  height: 8rem;
+  margin: 2rem;
+  align-items: center;
+  box-shadow: 0.25rem 0.5rem 1rem rgba(64, 66, 66, 0.2);
+}
+
+/* DOLL STALL */
+.main-course-card {
+  display: flex;
+  background-color: #ffffff;
+  box-shadow: 0.25rem 0.5rem 1rem rgba(64, 66, 66, 0.2);
+}
+.main-course-description {
+  flex: 1.8;
+  margin: 2rem;
+}
+.main-course-card-image {
+  flex: 1.5;
+}
+
+.doll-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto 1fr;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+.doll-card {
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  height: 100%;
+  box-shadow: 0.25rem 0.5rem 1rem rgba(64, 66, 66, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+.main-course-container {
+  width: 75rem;
+  margin: 4rem auto;
+}
+.course-card-heading {
+  text-align: center;
+}
+.doll-card-image {
+  margin: 0 auto;
+  width: 8rem;
+  height: 8rem;
+}
+.doll-description {
+  text-align: center;
+}
+.doll-price {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.contact-us-btn {
+  position: fixed;
+  bottom: 1rem;
+  right: 1.25rem;
+  background-color: #0074d9;
+  color: #ffffff;
+  padding: 0.625rem 1.25rem;
+  border: none;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+
+/* SLIDE LIBRARY */
+/* 
+.search-slide {
+  width: 15rem;
+  height: 1.8rem;
+  border-radius: 0.3rem;
+  border: 0.1rem solid #0074d9;
+  color: #0074d9;
+}
+.main-slideLib-container {
+  display: flex;
+}
+
+.slideLib-side-tab {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.slide-display {
+  flex: 5;
+}
+
+.side-tab-row {
+  background-color: #ffffff;
+}
+.slide-display-tab {
+  display: flex;
+  margin: 2rem;
+  gap: 2rem;
+  justify-content: space-between;
+}
+.slide-display-title {
+  text-align: center;
+}
+.slide-display-description {
+  text-align: center;
+}
+.slideLib-nav-bar {
+  justify-content: space-between;
+} */
+
+.cart {
+  padding-right: 3rem;
+  background-color: #ffffff;
+  /* height: 8rem; */
+  margin: 2rem;
+
+  /* text-align: center; */
+  box-shadow: 0.25rem 0.5rem 1rem rgba(64, 66, 66, 0.2);
+  border-radius: 0.8rem;
+  padding-bottom: 2rem;
+  padding-top: 1rem;
+}
+
+.cart-item {
+  padding-left: 1rem;
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+.cart-total {
+  padding-left: 1rem;
+  margin-top: 1rem;
+  background-color: #6e9db0;
+  font-weight: bold;
+  color: #fff;
+}
+.cart-title {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
